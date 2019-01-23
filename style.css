@@ -17,14 +17,30 @@ body {
   }
   .left {
       background-color: #3F3F41;
+      border-radius: 20px 0 0 20px;
       float: left;
       width: 100px;
       height: 200px;
   }
   .right {
     background-color: #3F3F41;
+    border-radius: 0 20px 20px 0;
     float: right;
     width: 100px;
     height: 200px;
+}
+
+input[type=text] {
+    border: 2px solid white;
+    border-radius: 4px;
+    width: 50px;
+    background-color: #3F3F41;
+  }
+p {
+    -ms-writing-mode: tb-rl;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    white-space: nowrap;
 }
   

@@ -12,8 +12,10 @@
 
 
 <div class = "wraper">
-    <div class = "left">
     
+    <div class = "left">
+    <p>josipa</p>
+        <input type="text">
     </div>
 
     <div class = "right">
