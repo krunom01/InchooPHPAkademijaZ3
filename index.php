@@ -1,3 +1,3 @@
 <?php
 
-echo "bok";
+echo "bok1";
