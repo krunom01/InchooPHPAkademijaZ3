@@ -1,7 +1,30 @@
-
-
 body {
    
     background: linear-gradient(90deg, #3F3F41 20px, transparent 1%) center, linear-gradient(#3F3F41  21px, transparent 1%) center, white;
     background-size: 22px 22px;
+    text-align:center;
   }
+  .wraper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    padding: 20px;
+  }
+  .left {
+      background-color: #3F3F41;
+      float: left;
+      width: 100px;
+      height: 200px;
+  }
+  .right {
+    background-color: #3F3F41;
+    float: right;
+    width: 100px;
+    height: 200px;
+}
+  
