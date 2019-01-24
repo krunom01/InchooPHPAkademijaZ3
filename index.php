@@ -10,18 +10,34 @@
 </head>
 <body>
 
-
+<!-- Main div -->
 <div class = "wraper">
-    
-    <div class = "left">
-    <p>josipa</p>
-        <input type="text">
+<!-- Top div -->
+      <div class = "top">
+        <?php for($i=0;$i<3;$i++): ?>
+          <span class="dot"></span>
+        <?php endfor;?>
+      </div>
+  <div style=" height:500px; width:800px; background-color:#3F3F41;  border-radius: 8px 8px 8px 8px;"> 
+    <!-- left div -->    
+    <div class="left">
+        <p class ="input"><b>INPUT</b></p>
+      </div>
+    <!-- middle div -->
+      <div class="middle">
+      Second DIV
+      </div>
+    <!-- third div -->
+    <div class="third">
+        <p class ="input"><b>OUTPUT</b></p>
+    </div>
+    <!-- last div div -->
+    <div class="last">
+
+
     </div>
 
-    <div class = "right">
-    
     </div>
-
 </div>
 
     
