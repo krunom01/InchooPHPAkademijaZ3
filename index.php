@@ -25,7 +25,15 @@
       </div>
     <!-- middle div -->
       <div class="middle">
-      Second DIV
+        <form action="<?php echo $_SERVER["PHP_SELF"];?>" method="post">
+            <p>Broj redaka</p>
+            <input type="text" name = "red">
+            <br>
+            <p>Broj stupaca</p>
+            <input type="text" name = "stupac">
+            <br><br>
+            <input type="submit" name ="brojevi" value = "KREIRAJ TABLICU">
+        </form>
       </div>
     <!-- third div -->
     <div class="third">

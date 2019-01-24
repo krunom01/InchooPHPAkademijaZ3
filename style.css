@@ -52,7 +52,15 @@ input[type=text] {
     border: 2px solid white;
     border-radius: 4px;
     width: 50px;
+    font-size: large;
     background-color: #3F3F41;
+    text-align: center;
+  }
+  input[type=submit] {
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: #33cc33;
+    text-align: center;
   }
 .input {
     -ms-writing-mode: tb-rl;
@@ -60,6 +68,7 @@ input[type=text] {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     white-space: nowrap;
+    color: #ccccb3;
 }
 
 
@@ -87,4 +96,7 @@ table{
 td {
     border: 1px solid white;
     border-radius: 4px;
+}
+p {
+    color:white;
 }
