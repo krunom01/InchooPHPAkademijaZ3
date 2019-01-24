@@ -1,6 +1,4 @@
 <?php
- isset($_POST["red"])? $red=$_POST["red"] : $red=5;
- isset($_POST["stupac"])? $stupac=$_POST["stupac"] : $stupac=5;
     /*  $k - pocetak reda
         $m - kraj reda
         $l - pocetak stupca
