@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,10 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <title>Ciklična matrica</title>
-   
 </head>
 <body>
-
 <!-- Main div -->
 <div class = "wraper">
 <!-- Top div -->
@@ -18,7 +17,7 @@
           <span class="dot"></span>
         <?php endfor;?>
       </div>
-  <div style=" height:500px; width:800px; background-color:#3F3F41;  border-radius: 8px 8px 8px 8px;"> 
+  <div class="bottom"> 
     <!-- left div -->    
     <div class="left">
         <p class ="input"><b>INPUT</b></p>
@@ -41,14 +40,11 @@
     </div>
     <!-- last div div -->
     <div class="last">
-
-
+      <?php include_once "funkcija.php" ?>
     </div>
-
     </div>
 </div>
-
-    
+ 
 </body>
 </html>
 

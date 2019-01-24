@@ -16,6 +16,12 @@ body {
     padding: 10px;
     
   }
+  .bottom{
+    height: 500px; 
+    width: 800px; 
+    background-color: #3F3F41;  
+    border-radius: 8px 8px 8px 8px;
+  }
   .left {
       float: left;
       background-color: #3F3F41;
